@@ -191,7 +191,7 @@ mouth3.shapesize(stretch_wid=3, stretch_len=3)
 
 ###keys###
 wn.listen()
-wn.onkeypress(close_button, 'c')
+#wn.onkeypress(close_button, 'c')
 wn.onkeypress(text1, 't')
 wn.onkeypress(text2, 'r')
 while True:
