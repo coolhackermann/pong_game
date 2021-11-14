@@ -4,7 +4,7 @@ with open('main.txt', 'r') as f:
 
 
 
-    with open('main', 'w') as f2:
+    with open('main.txt', 'w') as f2:
             if x == '0':
                 f2.write('1')
                 import pong.py
@@ -21,7 +21,7 @@ with open('main.txt', 'r') as f:
                 f2.write('0')
                 import emoji.py
 
-with open('main', 'r') as check:
+with open('main.txt', 'r') as check:
     x = check.read()
     print(x)
 
