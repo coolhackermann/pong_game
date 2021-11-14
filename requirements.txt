@@ -1,2 +1,3 @@
 python
 all files need to be in the same directory to work
+you need to run the script 6 times to see what happens
